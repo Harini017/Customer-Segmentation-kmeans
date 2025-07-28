@@ -20,7 +20,7 @@ st.set_page_config(page_title="Customer Segmentation", layout="wide")
 st.title("🛍️ Customer Segmentation using KMeans")
 
 # Load data
-df = pd.read_csv("E:\Customer-Segmentation-kmeans\Synthetic_Mall_Customers_500.csv")
+df = pd.read_csv("Synthetic_Mall_Customers_500.csv")
 
 le = LabelEncoder()
 df["Gender"] = le.fit_transform(df["Gender"])
