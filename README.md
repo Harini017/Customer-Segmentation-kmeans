@@ -29,14 +29,7 @@ This project uses KMeans Clustering to segment mall customers based on demograph
 - **Libraries:** `pandas`, `numpy`, `scikit-learn`, `seaborn`, `matplotlib`
 - **Web App:** [Streamlit](https://streamlit.io/)
 
-## 📁 Project Structure
 
-Customer-Segmentation-kmeans/
-│
-├── app.py                    # Streamlit app source
-├── requirements.txt          # Python dependencies
-├── Synthetic_Mall_Customers_500.csv  # Dataset
-└── README.md                 # You're here!
 
 ## 🚀 Run Locally
 
@@ -46,4 +39,17 @@ cd Customer-Segmentation-kmeans
 pip install -r requirements.txt
 streamlit run app.py
 
+
+
+
+---------------------------------
+
+## 📁 Project Structure
+
+Customer-Segmentation-kmeans/
+│
+├── app.py                    # Streamlit app source
+├── requirements.txt          # Python dependencies
+├── Synthetic_Mall_Customers_500.csv  # Dataset
+└── README.md                 # You're here!
 
